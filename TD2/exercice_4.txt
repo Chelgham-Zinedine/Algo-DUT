@@ -1,0 +1,3 @@
+Pour p <=30 Valeur Max = 52 (Saffran + purée) 
+Pour p <= 311 Valeur Max = 5067 (collier, amandes, saffran,purée,faux-fillet)
+Pour p <=1000 Valeur Max = 5077 (collier, amandes, saffran,purée,faux-fillet,merguez)

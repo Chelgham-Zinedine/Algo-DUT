@@ -1,0 +1,43 @@
+1)
+.1)
+
+a) 
+	c=4 	n=10
+	f(10)=346	4g(10) = 400
+
+b)	c=1	n=0
+	f(1) = 6 	f(0) = 0
+
+c)	f(x)=theta(n^2)
+	f(x)= O(4(n^2)
+	f(x)=omega(n^2)
+
+
+.2)
+	a) theta(n^8)
+	b) theta(n)
+	c) theta(n^9)
+	d) theta(n^2)
+	e) theta(log(n))
+	f) theta(log(n))
+
+
+.3)
+
+.4) f(2n) + g(3n) = theta(3n)
+	f(2n) + g(3n) = O(2(3n))
+		ex pour C=2 = n0=1
+			5 < 6
+	f(2n) + g(3n) = omega(3n)
+		ex pour C=1 = n0=1
+			5 < 3
+
+
+
+
+
+
+
+
+
+

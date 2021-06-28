@@ -1,0 +1,59 @@
+Ex1 
+1)	25
+2)	10
+3)	N^2
+4)	N*2
+
+
+
+Ex2
+1)	tab = { 3, 25, 50, 8, 1, 3, 49 }
+tab = { 1, 25, 50, 8, 3, 3, 49 }
+tab = { 1, 3, 50, 8, 25, 3, 49 }
+tab = { 1, 3, 3, 8, 25, 50, 49 }
+tab = { 1, 3, 3, 8, 25, 49, 50 }
+tab = { 1, 3, 3, 8, 25, 49, 50 }
+tab = { 1, 3, 3, 8, 25, 49, 50 }
+
+2)	Nombre max d’entrée dans la boucle = n
+3)	int tab[] ={1,20,9,8,3,6,10};
+4)	nombre min = 0  ex (tab vide ou tab déjà trié)
+5)	précondition : tab est un tableau d’élément non trié
+	postcondition : trie le tableau renseigné en paramètre
+	A1 : la seconde boucle for commence à l’indice i+1 cela veut dire qu’a chaque tour un élément en plus n’est plus pris en compte.
+	A2 : tab[indicemin] doit être inférieur ou égal à tout les éléments qui le suit 
+
+
+
+Ex 3
+1)
+etape	X	Gauche	Milieu	Droite
+1	21	0	3	7
+				
+
+2)
+Il faut une étape minimum voir l’exemple ci-dessus pour x=21
+
+3)
+Le nombre maximum d’étape = log2(n)
+Ex pour tab = {1,2,3,4} et x = 3
+Le nombre max d’étape = log2(4) = 2
+Etape	X	Gauche	Milieu	Droite
+1	3	0	1	3
+2	3	2	1	3
+
+
+
+Ex pour tab = {1,2,3} et x = 1
+Le nombre max d’étape = log2(3) = 2
+Etape	X	Gauche	Milieu	Droite
+1	1	0	1	2
+2	1	0	0	1
+
+
+4)Le problème est qu’on ne sort pas de la boucle en while car la variable droite ne décrémente pas. 
+
+
+
+
+
